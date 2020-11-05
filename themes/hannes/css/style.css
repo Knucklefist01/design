@@ -24,7 +24,7 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-h1 {
+h2 {
     height: 4vh;
     line-height: 4vh;
     font-size: 3vh;
@@ -36,9 +36,10 @@ p {
 }
 
 .main {
-    width: 100%;
+    width: 80%;
     min-height: 57vh;
-    padding: 1vh 3vh 0 3vh;
+    padding-top: 2vh;
+    margin: 0 auto;
 }
 
 .main h1 {
@@ -137,28 +138,26 @@ p {
 }
 
 .nav li {
-    width: 15%;
-    height: 5vh;
+    width: 100%;
+    height: 6.4vh;
+    padding: 0.7vh 2vh;
     line-height: 5vh;
     font-size: 3vh;
     text-align: center;
+    color: white;
+    transition: color 0.3s;
     transition: background-color 0.3s;
 }
 
-.nav li a {
-    color: white;
-    transition: color 0.3s;
+.nav a {
     text-decoration: none;
 }
 
 .nav li:hover {
     background-color: white;
-    transition: background-color 0.3s;
-}
-
-.nav li:hover a{
     color: black;
     transition: color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .flash-region {
