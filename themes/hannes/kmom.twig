@@ -28,6 +28,12 @@
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
+        <!--
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+            <span class="sr-only">Toggle Menu</span>
+        </a>
+        -->
         {% if pages["_meta"].meta.logo %}
             <div class="logo" aria-hidden="true">
                 <a href="{{ "index"|link }}">
@@ -60,13 +66,19 @@
             </div>
         </div>
     </div>
-    <div class="flash-region">
-        <img class="flash-img" src="{{ base_url }}/image/chicken2.png">
-    </div>
-    
-    <main role="main">
-        <div class="container">
-            {{ content }}
+
+    <main class="kmom-main" role="main">
+        <div class="side-bar">
+            <a href="kmom01" {% if meta.title == "Kmom01" %} class="selected" {% endif %}>Kmom01</a>
+            <a href="kmom02" {% if meta.title == "Kmom02" %} class="selected" {% endif %}>Kmom02</a>
+            <a href="kmom03" {% if meta.title == "Kmom03" %} class="selected" {% endif %}>Kmom03</a>
+            <a href="kmom04" {% if meta.title == "Kmom04" %} class="selected" {% endif %}>Kmom04</a>
+            <a href="kmom05" {% if meta.title == "Kmom05" %} class="selected" {% endif %}>Kmom05</a>
+            <a href="kmom06" {% if meta.title == "Kmom06" %} class="selected" {% endif %}>Kmom06</a>
+            <a href="kmom10" {% if meta.title == "Kmom10" %} class="selected" {% endif %}>Kmom10</a>
+        </div>
+        <div class="content">
+            {{content}}
         </div>
     </main>
 

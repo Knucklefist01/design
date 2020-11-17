@@ -1,0 +1,60 @@
+.kmom-main {
+    width: 80%;
+    min-height: 70vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 20% 78%;
+    gap: 0 2%;
+}
+
+.side-bar {
+    width: 100%;
+    height: 100%;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar a {
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 3vh;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+
+}
+
+.side-bar .selected {
+    background-color: #b63555;
+    color: #fff;
+    padding-left: 2vh;
+}
+
+.content {
+    grid-column: span 1;
+}
+
+.content h2 {
+    height: auto;
+    margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .kmom-main {
+        min-height: 65vh;
+        grid-template-columns: 100%;
+    }
+    
+    .side-bar {
+        display: none;
+    }
+
+    .content {
+        grid-column: span 1;
+    }
+}
