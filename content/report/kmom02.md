@@ -1,4 +1,9 @@
-## Kmom02
+---
+Title: Kmom02
+Template: kmom
+---
+
+## Kmom02 - SASS och typografi
 
 Än så länge så märker jag inga större skilnader mellan SASS och CSS, dock så gjorde jag inga större ändringar mellan kmom01 och kmom02. Jag har kollat lite på nätet och på föreläsningarna och utifrån det jag sett så verkar SASS som CSS om CSS hade gått och blivit ett programmeringsspråk, om det verkar logiskt.
 Jag hade hört talas om node.js tidigare men jag hade ingen aning om vad det var för någonting eller vad man kan göra med det. NPM är dock något helt nytt som jag aldrig sett förut. Än så länge har jag inte mycket att säga om node eller npm förutom att det verkar väldigt komplicerat. Jag tror dock att detta kommer klarna upp sig med tiden.

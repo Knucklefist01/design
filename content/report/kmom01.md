@@ -1,4 +1,9 @@
-## Kmom01
+---
+Title: Kmom01
+Template: kmom
+---
+
+## Kmom01 - Ramverk, innehåll, style
 
 Att jobba med ramverk är något helt nytt för mig och jag är fortfarande lite osäker på vad exakt ett ramverk innebär.
 När det kommer till dem nya verktygen i labbmiljön så är jag lite bekannt med git sedan tidigare men resten av verktygen är helt främmande för mig så det ska bli spännande att få några nya erfarenheter.

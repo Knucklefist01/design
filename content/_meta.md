@@ -8,4 +8,10 @@ Social:
     - title: Steam
       url: https://steamcommunity.com/id/hannesohman
       icon: fab fa-steam
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash
+    - title: Darkmode
+      url: ?action=theme
+      icon: fas fa-moon  
 ---
