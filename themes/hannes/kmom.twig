@@ -18,11 +18,11 @@
     {% endif %}
 
 
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"> -->
-    <!-- Insert font choice here -->
-    {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
-    <!-- End -->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->

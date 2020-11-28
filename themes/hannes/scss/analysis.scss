@@ -1,0 +1,17 @@
+$analysis-img-height: 300px;
+
+.site-result {
+    width: 100%;
+    height: $analysis-img-height + 2px;
+}
+
+.analysis-img {
+    width: auto;
+    height: $analysis-img-height;
+}
+
+.site-result p, .site-result h4 {
+    font-size: 1.7vh;
+    line-height: 1.7vh;
+    margin-bottom: 0.2vh;
+}

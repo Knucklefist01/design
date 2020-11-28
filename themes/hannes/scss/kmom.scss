@@ -22,7 +22,7 @@
     width: 100%;
     height: 5vh;
     line-height: 5vh;
-    font-size: 3vh;
+    font-size: 2vh;
     text-decoration: none;
     color: #000;
     border-radius: 10px;
@@ -30,7 +30,7 @@
 }
 
 .side-bar .selected {
-    background-color: #b63555;
+    background-color: $sidebar-selected-color;
     color: #fff;
     padding-left: 2vh;
 }

@@ -1,14 +1,13 @@
-@import '../../node_modules/normalize.css/normalize';
-@import '../../shared/fontawesome/scss/fontawesome';
-$fa-font-path: '../../shared/fontawesome/webfonts';
-@import '../../shared/fontawesome/scss/brands';
-@import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
+@import 'common';
+@import 'variables';
+@import 'typography';
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Ubuntu&display=swap');
+@import 'header';
+@import 'footer';
 
 @import 'report';
 @import 'kmom';
+@import 'analysis';
 
 
 
@@ -22,7 +21,6 @@ font-family: 'Ubuntu', sans-serif;
 
 */
 
-$teal: rgb(0, 128, 128);
 
 /* --------------
 -----GENERAL-----
@@ -32,29 +30,20 @@ $teal: rgb(0, 128, 128);
     border: 0 none;
     margin: 0;
     padding: 0;
-    font-family: 'Arimo', sans-serif;
 }
 
-
-h1 {
-    height: 5vh;
-    line-height: 5vh;
-    font-size: 4vh;
-    font-family: 'Ubuntu', sans-serif;
+body {
+    overflow-y: scroll;
+    background-color: $body-background;
 }
 
-h2 {
-    height: 4vh;
-    line-height: 4vh;
-    font-size: 3vh;
-    font-family: 'Ubuntu', sans-serif;
-}
 
 main {
     width: 80%;
     min-height: 57vh;
     padding-top: 2vh;
     margin: 0 auto;
+    color: $main-color;
 }
 
 main h1 {
@@ -66,7 +55,6 @@ main h1 {
 main p {
     width: 100%;
     height: auto;
-    font-size: 2vh;
 }
 
 main img {
@@ -76,32 +64,6 @@ main img {
     float: left;
 
 }
-
-
-/* --------------
-----/GENERAL-----
--------------- */
-
-/* --------------
------HEADER------
--------------- */
-
-@import 'header';
-
-/* --------------
-----/HEADER------
--------------- */
-
-/* --------------
------FOOTER------
--------------- */
-
-@import 'footer';
-
-/* --------------
-----/FOOTER------
--------------- */
-
 
 
 

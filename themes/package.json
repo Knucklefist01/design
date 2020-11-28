@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass hannes/scss/style.scss hannes/css/style.css --no-source-map --watch",
-    "watch-min": "sass hannes/scss/style.scss hannes/css/style.min.css --no-source-map --style compressed --watch",
-    "style": "sass hannes/scss/style.scss hannes/css/style.css --no-source-map",
-    "style-min": "sass hannes/scss/style.scss hannes/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass hannes/scss/style.scss:hannes/css/style.css hannes/scss/style-dark.scss:hannes/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass hannes/scss/style.scss:hannes/css/style.min.css hannes/scss/style-dark.scss:hannes/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass hannes/scss/style.scss hannes/css/style.css --no-source-map",
+    "style-light-min": "sass hannes/scss/style.scss hannes/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass hannes/scss/style-dark.scss hannes/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass hannes/scss/style-dark.scss hannes/css/style-dark.min.css --no-source-map --style compressed"
   },
 
   "keywords": [],

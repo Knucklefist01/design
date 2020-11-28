@@ -1,0 +1,21 @@
+@import 'common';
+@import 'style';
+@import 'variables-dark';
+@import 'typography';
+
+@import 'header';
+@import 'footer';
+
+@import 'report';
+@import 'kmom';
+
+
+
+body {
+    background-color: $body-background;
+}
+
+
+main {
+    color: $main-color;
+}

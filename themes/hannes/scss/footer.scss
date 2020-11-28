@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: 15vh;
-    background-color: rgba(128, 128, 128);
+    background-color: $footer-color;
     padding: 2vh 3vh;
     display: flex;
     justify-content: space-between;
@@ -24,9 +24,9 @@
 }
 
 .social i {
-    color: #fff;
+    color: $social;
 }
 
 .social i:hover {
-    color: #000;
+    color: $social-hover;
 }
