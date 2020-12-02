@@ -19,7 +19,7 @@ Rapporter <i class="fas fa-clipboard-list"></i>
 <div class="kmom-box">
     <a href="analysis/02_load">
         <h2>Rapport 2</h2>
-        <p>Load</p>
+        <p>Laddningstid och användbarhet</p>
     </a>
 </div>
 

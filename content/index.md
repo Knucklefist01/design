@@ -10,6 +10,6 @@ Hem <i class="fas fa-home"></i>
 
 
 
-![Bild på mig](../portfolio/assets/img/me.jpg)
+![Bild på mig](../portfolio/assets/img/me.jpg){.frontimage}
 Tjena mitt namn är Hannes Öhman. Jag är en 19-årig kille från Varberg som för tillfället är distansstudent på BTH.
 
