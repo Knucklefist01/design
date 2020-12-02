@@ -44,6 +44,15 @@
     margin-bottom: 2vh;
 }
 
+$youtube-ratio: 560/315;
+$youtube-height: 25vw;
+
+.embed-container,
+.embed-container iframe{
+    height: $youtube-height;
+    width: $youtube-height * $youtube-ratio;
+}
+
 @media screen and (max-width: 1000px) {
     .kmom-main {
         min-height: 65vh;

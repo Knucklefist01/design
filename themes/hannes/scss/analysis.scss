@@ -1,17 +1,30 @@
-$analysis-img-height: 300px;
+$analysis-img-height: 20vh;
 
 .site-result {
     width: 100%;
-    height: $analysis-img-height + 2px;
+    height: $analysis-img-height;
+    margin-bottom: 2vh;
 }
 
 .analysis-img {
     width: auto;
     height: $analysis-img-height;
+    float: left;
+    margin-right: 1vh;
+    object-fit: cover;
 }
 
-.site-result p, .site-result h4 {
+.site-result p,
+.site-result h4 {
     font-size: 1.7vh;
-    line-height: 1.7vh;
+    line-height: 2vh;
     margin-bottom: 0.2vh;
+}
+
+.load-table {
+    margin-bottom: 1vh;
+}
+
+ul {
+    margin-bottom: 1vh;
 }

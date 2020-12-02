@@ -6,11 +6,6 @@
 @import 'header';
 @import 'footer';
 
-@import 'report';
-@import 'kmom';
-
-
-
 body {
     background-color: $body-background;
 }
@@ -18,4 +13,12 @@ body {
 
 main {
     color: $main-color;
+}
+
+main a {
+    color: $main-color;
+}
+
+main a:hover {
+    color: $accent;
 }

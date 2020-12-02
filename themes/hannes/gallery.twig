@@ -17,7 +17,6 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-
     {% if config.session.theme == "dark" %}
         <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
     {% else %}
@@ -28,12 +27,6 @@
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
-        <!--
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
-            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
-            <span class="sr-only">Toggle Menu</span>
-        </a>
-        -->
         {% if pages["_meta"].meta.logo %}
             <div class="logo" aria-hidden="true">
                 <a href="{{ "index"|link }}">
@@ -66,16 +59,22 @@
             </div>
         </div>
     </div>
-
-    <main class="kmom-main" role="main">
-        <div class="side-bar">
-            <a href="01_colors" {% if meta.title == "Färger och typsnitt" %} class="selected" {% endif %}>Färger och typsnitt</a>
-            <a href="02_load" {% if meta.title == "Laddningstid och användbarhet" %} class="selected" {% endif %}>Laddningstid och användbarhet</a>
-            <a href="03_design_principles" {% if meta.title == "Design principles" %} class="selected" {% endif %}>Desing principles</a>
+    <main role="main">
+        <h1>Gallery <i class="fas fa-camera-retro"></i></h1>
+        <div class="gallery">
+            {% for image in meta.images %}
+                <div>
+                    <a href="{{ base_url }}/image/gallery/{{ image.url }}">
+                        <picture>
+                            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}">
+                            <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}&w=667">
+                            <img src="{{ base_url }}/image/gallery/{{ image.url }}&w=375" alt="{{ image.alt }}">
+                        </picture>
+                    </a>
+                </div>
+            {% endfor %}
         </div>
-        <div class="content">
-            {{content}}
-        </div>
+        
     </main>
 
     <div class="footer">

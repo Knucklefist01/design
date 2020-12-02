@@ -8,6 +8,7 @@
 @import 'report';
 @import 'kmom';
 @import 'analysis';
+@import 'gallery';
 
 
 
@@ -46,26 +47,26 @@ main {
     color: $main-color;
 }
 
+main a {
+    color: $main-color;
+}
+
+main a:hover {
+    color: $accent;
+}
+
 main h1 {
     width: 100%;
     padding-left: 2vh;
     margin: 2vh;
 }
 
-main p {
-    width: 100%;
-    height: auto;
-}
-
-main img {
+.frontimage {
     width: 13%;
     margin-right: 1vh;
     object-fit: cover;
     float: left;
-
 }
-
-
 
 @media screen and (max-width: 1000px) {
     main {
