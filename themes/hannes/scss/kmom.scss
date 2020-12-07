@@ -24,7 +24,7 @@
     line-height: 5vh;
     font-size: 2vh;
     text-decoration: none;
-    color: #000;
+    color: $main-color;
     border-radius: 10px;
 
 }
@@ -48,7 +48,7 @@ $youtube-ratio: 560/315;
 $youtube-height: 25vw;
 
 .embed-container,
-.embed-container iframe{
+.embed-container iframe {
     height: $youtube-height;
     width: $youtube-height * $youtube-ratio;
 }

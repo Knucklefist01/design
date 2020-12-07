@@ -1,16 +1,23 @@
 $analysis-img-height: 20vh;
+$analysis-img-width: 30%;
 
 .site-result {
     width: 100%;
-    height: $analysis-img-height;
+    height: 30vh;
     margin-bottom: 2vh;
 }
 
+.left-result {
+    width: 69%;
+    height: auto;
+    float: right;
+}
+
 .analysis-img {
-    width: auto;
-    height: $analysis-img-height;
+    width: $analysis-img-width;
+    height: auto;
     float: left;
-    margin-right: 1vh;
+    margin-right: 1%;
     object-fit: cover;
 }
 
@@ -19,6 +26,11 @@ $analysis-img-height: 20vh;
     font-size: 1.7vh;
     line-height: 2vh;
     margin-bottom: 0.2vh;
+}
+
+:not(.site-result) p,
+:not(.site-result) h2 {
+    clear: both;
 }
 
 .load-table {
