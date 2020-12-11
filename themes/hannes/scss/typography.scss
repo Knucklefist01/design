@@ -17,10 +17,12 @@ h2 {
 }
 
 h3 {
+    width: 100%;
     height: 3vh;
     line-height: 3vh;
     font-size: 2vh;
     font-family: 'Ubuntu', sans-serif;
+    clear: both;
 }
 
 h4,

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,9 +28,9 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
         {% if pages["_meta"].meta.logo %}
-            <div class="logo" aria-hidden="true">
-                <a href="{{ "index"|link }}">
-                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+            <div class="logo">
+                <a href="{{ "index"|link }}" aria-label="högsta upplösning av logga">
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}?crop-to-fit&aspect-ratio=1:1&w=300" alt="" />
                 </a>
             </div>
         {% endif %}
@@ -44,16 +44,17 @@
             <div id="nav" role="navigation" tabindex="-1">
                 <ul>
                     {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                        <a href="{{ page.url }}">
-                            <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                {% if page.meta.icon %}
-                                    <i class="{{ page.meta.icon}}"></i>
-                                {% else %}
-                                    {{ page.title }}
-                                {% endif %}
-                                
-                            </li>
-                        </a>
+                        <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                            <a href="{{ page.url }}" aria-label="{{ page.title }}">
+                                <div class="nav-icon">
+                                    {% if page.meta.icon %}
+                                        <i class="{{ page.meta.icon}}"></i>
+                                    {% else %}
+                                        {{ page.title }}
+                                    {% endif %}
+                                </div>
+                            </a>
+                        </li>
                     {% endfor %}
                 </ul>
             </div>
@@ -66,7 +67,7 @@
                 <div>
                     <a href="{{ base_url }}/image/gallery/{{ image.url }}">
                         <picture>
-                            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}">
+                            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}&w=1000">
                             <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}&w=667">
                             <img src="{{ base_url }}/image/gallery/{{ image.url }}&w=375" alt="{{ image.alt }}">
                         </picture>

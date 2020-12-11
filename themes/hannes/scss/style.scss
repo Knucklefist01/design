@@ -68,6 +68,10 @@ main h1 {
     float: left;
 }
 
+img:not([alt]) {
+    outline: 4px dashed #f00;
+}
+
 @media screen and (max-width: 1000px) {
     main {
         width: 80%;

@@ -40,3 +40,19 @@ $analysis-img-width: 30%;
 ul {
     margin-bottom: 1vh;
 }
+
+@media screen and (max-width: 1000px) {
+    .site-result {
+        width: 100%;
+        height: auto;
+    }
+    .analysis-img {
+        width: 100%;
+        margin-right: 0;
+        object-fit: cover;
+    }
+    .left-result {
+        width: 100%;
+        height: auto;
+    }
+}
