@@ -26,6 +26,6 @@ Rapporter <i class="fas fa-clipboard-list"></i>
 <div class="kmom-box">
     <a href="analysis/03_design_principles">
         <h2>Rapport 3</h2>
-        <p>Design principles</p>
+        <p>Designprinciper</p>
     </a>
 </div>
