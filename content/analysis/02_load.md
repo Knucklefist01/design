@@ -39,8 +39,8 @@ Resultat
 ### [<i class="fas fa-external-link-alt"></i> Tesla:](https://www.tesla.com/sv_se)
 
 <div class="site-result">
-    <img src="%base_url%/content/analysis/img/tesla.png" alt="Aftobladet" class="analysis-img">
-    <div>
+    <img src="%base_url%/content/analysis/img/tesla.PNG" alt="Aftobladet" class="analysis-img">
+    <div class="left-result">
         <table style="border-spacing: 4px; border-collapse: collapse" class="load-table">
             <tr>
                 <td style="height: 30px; width: 100px; border: 1px solid grey;">PageSpeed: Desktop</td>
@@ -64,8 +64,8 @@ Resultat
 ### [<i class="fas fa-external-link-alt"></i> Reddit:](https://www.reddit.com/)
 
 <div class="site-result">
-    <img src="%base_url%/content/analysis/img/reddit.png" alt="Aftobladet" class="analysis-img">
-    <div>
+    <img src="%base_url%/content/analysis/img/reddit.PNG" alt="Aftobladet" class="analysis-img">
+    <div class="left-result">
         <table style="border-spacing: 4px; border-collapse: collapse" class="load-table">
             <tr>
                 <td style="height: 30px; width: 100px; border: 1px solid grey;">PageSpeed: Desktop</td>
@@ -89,8 +89,8 @@ Resultat
 ### [<i class="fas fa-external-link-alt"></i> Wikipedia: Varbergs Fästning:](https://sv.wikipedia.org/wiki/Varbergs_f%C3%A4stning)
 
 <div class="site-result">
-    <img src="%base_url%/content/analysis/img/wikipedia.png" alt="Aftobladet" class="analysis-img">
-    <div>
+    <img src="%base_url%/content/analysis/img/wikipedia.PNG" alt="Aftobladet" class="analysis-img">
+    <div class="left-result">
         <table style="border-spacing: 4px; border-collapse: collapse" class="load-table">
             <tr>
                 <td style="height: 30px; width: 100px; border: 1px solid grey;">PageSpeed: Desktop</td>

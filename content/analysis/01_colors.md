@@ -43,27 +43,28 @@ Text            SVART   =   #222222 ~
 H1, H2, H3=   Verdana, Arial, Helvetica, sans-serif
 p element   =   Arial,Helvetica,Verdana,Geneva,sans-serif
 -->
-### Aftonbladet:
-
 <div class="site-result">
-    <img src="%base_url%/content/analysis/img/aftonbladet_AdBlock.png" alt="Aftobladet" class="analysis-img">
-    <h4>Färgschema:</h4>
-    <table style="border-spacing: 4px; border-collapse: separate">
-        <tr>
-            <td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #FEEBEE; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #DD2A30; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #FFEB00; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #222222; border: 1px solid grey;">
-        </tr>
-    </table>
-    <div>
-        <p>Färgschemat som används är huvudsakligen ett monokromt spektrum av vit-rött med gula accentfärger på ett fåtal ställen och svart text.</p><br>
-        <h4>Typsnitt:</h4> <br>
-        <p>Typsnitten som används på sidan skiljer sig inte mycket infrån varandra, dem är alla sans-serif.</p><br>
-        <p><b>h1, h2, h3:</b> Verdana, Arial, Helvetica, sans-serif</p><br>
-        <p><b>Brödtext:</b> Arial, Helvetica, Verdana, Geneva, sans-serif</p><br>
-        <p>Sidan använder sig av många kontrasterande färger samt signalfärger och tydlig text, vilket jag antar dem strävar efter.</p>
+    <h3>Aftonbladet:</h3>
+    <img src="%base_url%/content/analysis/img/aftonbladet_AdBlock.PNG" alt="Aftobladet" class="analysis-img">
+    <div class="left-result">
+        <h4>Färgschema:</h4>
+        <table style="border-spacing: 4px; border-collapse: separate">
+            <tr>
+                <td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #FEEBEE; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #DD2A30; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #FFEB00; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #222222; border: 1px solid grey;">
+            </tr>
+        </table>
+        <div>
+            <p>Färgschemat som används är huvudsakligen ett monokromt spektrum av vit-rött med gula accentfärger på ett fåtal ställen och svart text.</p><br>
+            <h4>Typsnitt:</h4> <br>
+            <p>Typsnitten som används på sidan skiljer sig inte mycket infrån varandra, dem är alla sans-serif.</p><br>
+            <p><b>h1, h2, h3:</b> Verdana, Arial, Helvetica, sans-serif</p><br>
+            <p><b>Brödtext:</b> Arial, Helvetica, Verdana, Geneva, sans-serif</p><br>
+            <p>Sidan använder sig av många kontrasterande färger samt signalfärger och tydlig text, vilket jag antar dem strävar efter.</p>
+        </div>
     </div>
 </div>
 
@@ -79,27 +80,27 @@ Footer 2            GRÅ     =   #333333 ~
 
 Body   =   Publik,Helvetica,Arial,"Nimbus Sans L","Bitstream Vera Sans",sans-serif
 -->
-
-### SVT Nyheter:
-
 <div class="site-result">
-    <img src="%base_url%/content/analysis/img/svt_nyheter.png" alt="SVT Nyheter" class="analysis-img">
+    <h3>SVT Nyheter:</h3>
+    <img src="%base_url%/content/analysis/img/svt_nyheter.PNG" alt="SVT Nyheter" class="analysis-img">
+    <div class="left-result">
     <h4>Färgschema:</h4>
-    <table style="border-spacing: 4px; border-collapse: separate">
-        <tr>
-            <td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #EBEBEB; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #404040; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #333333; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #E02E3D; border: 1px solid grey;">
-        </tr>
-    </table>
-    <div>
-        <p>Monokromt färgschema i form av gråskala med SVT:s signatur röd som accent.</p><br>
-        <h4>Typsnitt:</h4> <br>
-        <p>Sidan använder sig utav en universal font-family som ligger direkt i bodyn och påverkar allt.</p><br>
-        <p><b>Allt:</b> Publik, Helvetica, Arial, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif</p><br>
-        <p>Tydliga rubriker med inslag av signalfärger drar ögonen till dem. En väldigt medveten och förväntad design.</p>
+        <table style="border-spacing: 4px; border-collapse: separate">
+            <tr>
+                <td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #EBEBEB; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #404040; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #333333; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #E02E3D; border: 1px solid grey;">
+            </tr>
+        </table>
+        <div>
+            <p>Monokromt färgschema i form av gråskala med SVT:s signatur röd som accent.</p><br>
+            <h4>Typsnitt:</h4> <br>
+            <p>Sidan använder sig utav en universal font-family som ligger direkt i bodyn och påverkar allt.</p><br>
+            <p><b>Allt:</b> Publik, Helvetica, Arial, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif</p><br>
+            <p>Tydliga rubriker med inslag av signalfärger drar ögonen till dem. En väldigt medveten och förväntad design.</p>
+        </div>
     </div>
 </div>
 
@@ -114,21 +115,20 @@ Prenumenera         GRÖN    =   #00c389 ~
 H1, H2, H3  =   "Gothia Serif",Serif
 brödtext    =   Georgia,'Times New Roman',Times,serif
 -->
-### Hallands Nyheter:
-
 <div class="site-result">
-    <img src="%base_url%/content/analysis/img/hallands_nyheter.png" alt="Hallands Nyheter" class="analysis-img">
-    <h4>Färgschema:</h4>
-    <table style="border-spacing: 4px; border-collapse: separate">
-        <tr>
-            <td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #F3F3F3; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #0A5582; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #0A324B; border: 1px solid grey;">
-            <td style="height: 50px; width: 50px; background-color: #00C389; border: 1px solid grey;">
-        </tr>
-    </table>
-    <div>
+    <h3>Hallands Nyheter:</h3>
+    <img src="%base_url%/content/analysis/img/hallands_nyheter.PNG" alt="Hallands Nyheter" class="analysis-img">
+    <div class="left-result">
+        <h4>Färgschema:</h4>
+        <table style="border-spacing: 4px; border-collapse: separate">
+            <tr>
+                <td style="height: 50px; width: 50px; background-color: #FFFFFF; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #F3F3F3; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #0A5582; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #0A324B; border: 1px solid grey;">
+                <td style="height: 50px; width: 50px; background-color: #00C389; border: 1px solid grey;">
+            </tr>
+        </table>
         <p>Färgschemat på denna sidan består av två huvudsakliga vita färger för bakgrunder, två blåa för mindre accenter och en lite grönare färg för prenumenerings-knappen.</p><br>
         <h4>Typsnitt:</h4> <br>
         <p>Denna sidan använder sig av välkända serif typsnitt nästan överallt.</p><br>
