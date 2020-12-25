@@ -29,3 +29,18 @@ Rapporter <i class="fas fa-clipboard-list"></i>
         <p>Designprinciper</p>
     </a>
 </div>
+
+<div class="kmom-box">
+    <a href="analysis/10_webbplatsdesign">
+        <h2>Rapport 10</h2>
+        <p>Webbplatsdesign</p>
+    </a>
+</div>
+
+<div class="kmom-box">
+    <a href="analysis/11_design-och-webbplatser">
+        <h2>Rapport 11</h2>
+        <p>Design och Webbplatser</p>
+    </a>
+</div>
+
