@@ -152,7 +152,9 @@ Resultat
 Analys
 -----------------------
 <!-- Diskutera och analysera de resultaten du fann. -->
-Laddningstiderna mellan dem olika platformarna är näst intill identiska, bortsett från en dålig laddningstid med 1,8s på mobil. För att förbättra denna sidan finns det ett antal åtgärder som skulle kunna göras, den främsta är att korrekt skala bilderna för storleken av dess element. Som det ser ut nu så är två av bilderna, nämligen herobilden och headshotbilden, väldigt dåligt optimerade för storleken av det element dem ligger i. Herobilden behåller sin ursprungliga storlek av 2000px hela vägen ner till mobil-storlek där storleken på elementet är 400px och lika så med headshotet som håller 1000px hela vägen ner till där den skulle varit 260px. Dem resterande bilderna, som alla ligger på projekt-sidan är väl anpassade till elementets-storlek, detta tack vare användningen av picture-element och cimage-funktioner för att responsivt anpassa storleken på bilden beroende på vilken bredd enheten har. 
+Laddningstiderna mellan dem olika platformarna är näst intill identiska, bortsett från en dålig laddningstid med 1,8s på mobil. För att förbättra denna sidan finns det ett antal åtgärder som skulle kunna göras, den främsta är att korrekt skala bilderna för storleken av dess element. Som det ser ut nu så är två av bilderna, nämligen herobilden och headshotbilden, väldigt dåligt optimerade för storleken av det element dem ligger i. Herobilden behåller sin ursprungliga storlek av 2000px hela vägen ner till mobil-storlek där storleken på elementet är 400px och lika så med headshotet som håller 1000px hela vägen ner till där den skulle varit 260px. Dem resterande bilderna, som alla ligger på projekt-sidan är väl anpassade till elementets-storlek, detta tack vare användningen av picture-element och cimage-funktioner för att responsivt anpassa storleken på bilden beroende på vilken bredd enheten har.
+
+Både herobilden och headshotet har nu blivit åtgärdade och är nu mer responsiva till storleken av elementet.
 
 Referenser
 -----------------------
